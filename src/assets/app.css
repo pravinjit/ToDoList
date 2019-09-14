@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.user-wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.user-wrapper .MuiGrid-item {
+  height: 100vh;
+}
+
+.user-wrapper .bg-image {
+  background: url('login.jpg') top center no-repeat;
+  background-size: contain;
+}
+.user-wrapper .reg-image {
+  background: url('registration.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+
+.form-block {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  width: 55%;
+  left: 50%;
+  text-align: center;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.form p {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.form h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+
+.form h1 img {
+  width: 35px;
+  margin: 0 15px;
+  position: relative;
+  top: 6px;
+}
+
+.form .form-btn {
+  margin: 10px 0 15px;
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+
+.form .footer a {
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin: 0 0 10px;
+  color: #777;
+} 
+
+.form .footer a:hover {
+  text-decoration: underline;
+}
+
+.MuiFormControl-marginNormal {
+  margin-top: 0px !important;
+}
+
+.MuiFormLabel-root {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.alert {
+  margin-bottom: 13px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1), 0px 2px 2px 0px rgba(0,0,0,0.12), 0px 3px 1px -2px rgba(0,0,0,0.1);
+}
+
+.alert p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+
+.alert.danger {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.alert.success {
+  color: #155724;
+  background-color: #d4edda;
+}
+
+.alert.info {
+  color: #004085;
+  background-color: #cce5ff;
+}
+
+.profile {
+  float: right;
+  padding: 15px 30px;
+}
+.profile p {
+  font-weight: 500;
+  margin: 8px 0;
+  text-transform: uppercase;
+}
+
+.header h1.pull-right {
+  margin-right: -70px;
+}
